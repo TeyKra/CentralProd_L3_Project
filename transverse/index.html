@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/FLAVICON.png" type="image/x-icon">
+
+    <title>Central Prod</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body id="body">
+
+    <!--<section class="title">
+      <h1 style="color: rgb(255, 255, 255);">CENTRAL PROD</h1>
+    </section>
+  -->
+  
+  
+  <!--Création de la nav bar-->
+  <section class="navbar">
+    <a href="index.html" class="nav-logo">CENTRRAL<br>PROOD</a>
+    <nav>
+      <div id="nav-right" class="nav-right">
+          <!--<a href="#" class="nav-category">CATÉGORIE 1</a>
+          <a href="#" class="nav-category">CATÉGORIE 2</a>
+          <a href="#" class="nav-category">CATÉGORIE 3</a>-->
+          <button id="form-btn" class="nav-btn">Ajoouter un bbeat</button>
+      </div>
+      <div id="logo"> 
+        <a href="login.html"><ion-icon class="accountbtn"name="person-circle-outline"></ion-icon></a>
+      </div>
+      <ion-icon id="burger" name="reorder-three-outline"></ion-icon>
+
+    </nav>
+  </section>
+
+  <!--<section id="adapt-section">
+    <div id="adapt">
+      <a href="#" class="nav-category">CATÉGORIE 1</a>
+      <a href="#" class="nav-category">CATÉGORIE 2</a>
+      <a href="#" class="nav-category">CATÉGORIE 3</a>
+      <button class="nav-btn">Ajoouter un bbeat</button>
+    </div>
+
+  </section>-->
+
+  
+  <!--création du formulaire pour ajouter un beat-->
+    <section  id="formulaire">
+
+      <form id="beat-form">
+        <input type="text" id="beat-name" placeholder="Beat Name">
+        <input type="text" id="beat-author" placeholder="Author">
+        <!--<textarea id="beat-description" placeholder="Description"></textarea>-->
+        <input type="file" id="beat-mp3" accept="audio/mpeg">
+        <input type="file" id="beat-cover" accept="image/*">
+        <div class="bottombtn">
+          <button class="submitbtn" type="submit">
+            Subbmit
+          </button>
+          <!--<ion-icon id="cross" name="close-outline"></ion-icon>-->
+        </div>
+       
+      </form>
+      <div id="bg"></div>
+
+    </section>
+
+    <!--création de la section ou se regroupent toutes les cartes, normalement il n'y a rien, mais comme j'ai besoin de voir ce que donne les cartes j'en ai ajouté plein manuellement-->
+    <section id="1" class="main">
+
+      <!--création d'une div contenant toute les cartes-->
+
+      <div id="beats">
+
+      </div>
+     
+     </div>
+
+     
+    
+
+    </section>
+    <!--ici c'ets juste les petites étoiles, rien d'important-->
+
+    <section class="frontsec" id="stars">
+    <div class="frontbg"></div>
+  </section>
+
+  
+    
+   
+ 
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>
